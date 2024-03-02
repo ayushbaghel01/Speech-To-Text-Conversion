@@ -1,0 +1,6 @@
+python>=3.6
+espnet_model_zoo
+torch
+torchmetrics
+SoundFile
+librosa
