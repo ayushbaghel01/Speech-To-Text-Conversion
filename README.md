@@ -32,6 +32,10 @@ The objective of this code is to perform automatic speech recognition (ASR) usin
 - SoundFile
 - `Librosa`
 
+   - ### To install the above dependencies, run the following command:
+     ```
+     ! pip install -r requirements.txt
+     ```
 ## Usage:
 1. **Setup**:
    - Ensure all required libraries are installed using the provided installation command.
