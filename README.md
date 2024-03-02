@@ -1,7 +1,7 @@
 # Speech Recognition with ESPnet Models
 
 ## Objective:
-The objective of this code is to perform automatic speech recognition (ASR) using pre-trained ESPnet models. It involves transcribing speech audio files into text and evaluating the transcription accuracy using metrics such as Word Error Rate (WER) and Character Error Rate (CER).
+The objective of this code is to perform `automatic speech recognition` (ASR) using `pre-trained ESPnet` models. It involves transcribing speech audio files into text and evaluating the transcription accuracy using metrics such as Word Error Rate (`WER`) and Character Error Rate (`CER`).
 
 ## Approach:
 1. **Installation**:
@@ -18,7 +18,7 @@ The objective of this code is to perform automatic speech recognition (ASR) usin
    - The downloaded model is utilized to transcribe the speech into text. The recognized text is normalized using the `text_normalizer` function, which converts the text to lowercase and removes punctuation.
 
 4. **Output Generation**:
-   - The recognized text is written to an output file (`output_file_path`) for further analysis or integration into downstream applications.
+   - The `recognized text` is written to an output file (`output_file_path`) for further analysis or integration into downstream applications.
 
 5. **Evaluation**:
    - To assess the accuracy of the speech recognition, Word Error Rate (WER) and Character Error Rate (CER) are calculated using the TorchMetrics library.
